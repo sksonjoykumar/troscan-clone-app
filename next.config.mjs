@@ -1,9 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: false,
-  experimental: {
-    appDir: true,
-  },
 };
 
-export default nextConfig;
+export default nextConfig; // Use this for .mjs
+// module.exports = nextConfig; // Use this for .js (CommonJS)

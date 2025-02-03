@@ -1,4 +1,5 @@
 export default function Home() {
+  
   return (
     <div className="">
       <main>
@@ -7,5 +8,6 @@ export default function Home() {
         </h1>
       </main>
     </div>
+    
   );
 }

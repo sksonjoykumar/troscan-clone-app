@@ -1,11 +1,23 @@
+import AboutUs from '../components/AboutUs';
+import News from '../components/all-news/News';
+import Background from '../components/background/Background';
+import GetToTouch from '../components/get-to-touch/MainTextParallax';
+import MainHover from '../components/hover-image-links/MainHover';
+import ShuffleHero from '../components/shuffleHero/ShuffleHero';
+import MainTextParallax from '../components/text-parallax-components/MainTextParallax';
+
 export default function Home() {
   return (
-    <div className="">
+    <>
       <main>
-        <h1 className="mt-4 text-4xl font-semibold text-center text-blue-600">
-          Hello World!
-        </h1>
+        <Background />
+        <AboutUs />
+        <ShuffleHero />
+        <MainTextParallax />
+        <MainHover />
+        <GetToTouch />
+        <News />
       </main>
-    </div>
+    </>
   );
 }

@@ -69,7 +69,7 @@ export default function Navbar() {
               </li>
               <Link href={'/contact'}>
                 <button
-                  className="hidden md:block bg-textPrimary text-white text-md font-semibold px-6 py-3 m-1.5 rounded-lg hover:bg-hoverColor transition-all duration-300"
+                  className=" bg-textPrimary text-white text-md font-semibold px-6 py-3 m-1.5 rounded-lg hover:bg-hoverColor transition-all duration-300"
                   type="button"
                 >
                   Contact us

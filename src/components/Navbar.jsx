@@ -59,10 +59,10 @@ export default function Navbar() {
           <div className="flex justify-center items-center py-3">
             <ul className="flex flex-col items-center gap-4">
               <li className="text-textPrimary text-md font-semibold hover:text-hoverColor transition-all duration-300">
-                <Link href="#about">About</Link>
+                <Link href="/about">About</Link>
               </li>
               <li className="text-textPrimary text-md font-semibold hover:text-hoverColor transition-all duration-300">
-                <Link href="/project">Project</Link>
+                <Link href="/projects">Projects</Link>
               </li>
               <li className="text-textPrimary text-md font-semibold hover:text-hoverColor transition-all duration-300">
                 <Link href="/news">News</Link>
